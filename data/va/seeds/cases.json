@@ -1,0 +1,18 @@
+[
+  {
+    "id": "va-fairfax-faggioni-seed",
+    "jurisdiction": "Fairfax County, Virginia",
+    "court": "Needs official case lookup",
+    "defendant": "Edwin Alberto Faggioni",
+    "status": "seed",
+    "originalCharges": ["Claimed: rape of child under 13", "Claimed: incest with own child"],
+    "finalCharges": ["Claimed: indecent liberties with child under 15", "Claimed: sexual abuse of child under 15"],
+    "outcomeSummary": "X-source seed claims original serious child sex charges were amended/reduced and sentence was fully suspended/no active jail. Needs official court record verification before publication as fact.",
+    "prosecutorOffice": "Fairfax County Commonwealth's Attorney",
+    "flags": ["child-sex-offense", "serious-charge-reduced-claim", "all-time-suspended-claim", "official-verification-needed"],
+    "sources": [
+      { "label": "VA4SafeComm X seed", "url": "https://x.com/va4safecomm/status/2066585068823539753", "confidence": "social-claim" },
+      { "label": "NoVA Campaigns X seed", "url": "https://x.com/nova_campaigns/status/2066618546537292007", "confidence": "social-claim" }
+    ]
+  }
+]
