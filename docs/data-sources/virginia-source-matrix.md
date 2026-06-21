@@ -1,5 +1,11 @@
 # Virginia Source Matrix v0
 
+This file tracks the original criminal/court source matrix for Case Watch.
+
+For the expanded GovSauce civic-accountability matrix covering courts, votes, budgets, officials, boards, agencies, elections, and alert sources, see:
+
+- `docs/data-sources/virginia-civic-accountability-source-matrix.md`
+
 This file tracks the sources that Case Watch needs before statewide scraping.
 
 ## Official statewide sources

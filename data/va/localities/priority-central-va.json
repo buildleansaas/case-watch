@@ -1,0 +1,134 @@
+[
+  {
+    "id": "va-hanover-county",
+    "name": "Hanover County",
+    "type": "county",
+    "state": "VA",
+    "priority": 1,
+    "region": "Central Virginia / Richmond area",
+    "sources": [
+      { "id": "va-courts-cci", "label": "Virginia Circuit Court Case Information", "category": "court", "url": "https://eapps.courts.state.va.us/cci/", "access": "search-form", "scrapeStatus": "needs-review", "notes": "Select Hanover Circuit Court when querying felony/circuit cases." },
+      { "id": "va-courts-gdc", "label": "Virginia General District Court Case Information", "category": "court", "url": "https://eapps.courts.state.va.us/gdcourts/", "access": "search-form", "scrapeStatus": "needs-review", "notes": "Select Hanover General District Court for preliminary/criminal traffic records." },
+      { "id": "hanover-ca", "label": "Hanover County Commonwealth's Attorney", "category": "prosecutor", "url": "https://www.hanovercounty.gov/", "access": "public-web", "scrapeStatus": "needs-review", "notes": "Exact department URL needs confirmation from county site search/navigation." },
+      { "id": "hanover-sheriff", "label": "Hanover County Sheriff's Office", "category": "sheriff", "url": "https://www.hanoversheriff.com/", "access": "public-web", "scrapeStatus": "needs-review" },
+      { "id": "pamunkey-regional-jail", "label": "Pamunkey Regional Jail", "category": "jail", "url": "https://www.pamunkeyregionaljail.org/", "access": "public-web", "scrapeStatus": "needs-review", "notes": "Regional jail for Hanover/Caroline area; verify inmate search/release endpoints." },
+      { "id": "hanover-foia", "label": "Hanover County FOIA", "category": "foia", "url": "https://www.hanovercounty.gov/1003/Freedom-of-Information-Act-FOIA", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "hanover-board", "label": "Hanover County Board of Supervisors", "category": "local-government", "url": "https://www.hanovercounty.gov/282/Board-of-Supervisors", "access": "public-web", "scrapeStatus": "works" }
+    ]
+  },
+  {
+    "id": "va-henrico-county",
+    "name": "Henrico County",
+    "type": "county",
+    "state": "VA",
+    "priority": 2,
+    "region": "Central Virginia / Richmond area",
+    "sources": [
+      { "id": "va-courts-cci", "label": "Virginia Circuit Court Case Information", "category": "court", "url": "https://eapps.courts.state.va.us/cci/", "access": "search-form", "scrapeStatus": "needs-review" },
+      { "id": "va-courts-gdc", "label": "Virginia General District Court Case Information", "category": "court", "url": "https://eapps.courts.state.va.us/gdcourts/", "access": "search-form", "scrapeStatus": "needs-review" },
+      { "id": "henrico-ca", "label": "Henrico Commonwealth's Attorney", "category": "prosecutor", "url": "https://henrico.gov/com-atty/", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "henrico-police", "label": "Henrico Police Division", "category": "police", "url": "https://henrico.gov/police/", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "henrico-sheriff", "label": "Henrico Sheriff's Office", "category": "sheriff", "url": "https://henrico.gov/sheriff/", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "henrico-foia", "label": "Henrico FOIA", "category": "foia", "url": "https://henrico.gov/services/freedom-of-information-act-foia/", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "henrico-board", "label": "Henrico Board of Supervisors", "category": "local-government", "url": "https://henrico.gov/supervisors/", "access": "public-web", "scrapeStatus": "works" }
+    ]
+  },
+  {
+    "id": "va-richmond-city",
+    "name": "City of Richmond",
+    "type": "city",
+    "state": "VA",
+    "priority": 3,
+    "region": "Central Virginia / Richmond area",
+    "sources": [
+      { "id": "va-courts-cci", "label": "Virginia Circuit Court Case Information", "category": "court", "url": "https://eapps.courts.state.va.us/cci/", "access": "search-form", "scrapeStatus": "needs-review" },
+      { "id": "va-courts-gdc", "label": "Virginia General District Court Case Information", "category": "court", "url": "https://eapps.courts.state.va.us/gdcourts/", "access": "search-form", "scrapeStatus": "needs-review" },
+      { "id": "richmond-ca", "label": "Richmond Commonwealth's Attorney", "category": "prosecutor", "url": "https://www.rva.gov/commonwealths-attorney", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "richmond-police", "label": "Richmond Police Department", "category": "police", "url": "https://www.rva.gov/police", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "richmond-sheriff", "label": "Richmond Sheriff's Office", "category": "sheriff", "url": "https://www.rva.gov/sheriff", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "richmond-foia", "label": "Richmond FOIA", "category": "foia", "url": "https://www.rva.gov/freedom-information-act", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "richmond-city-council", "label": "Richmond City Council", "category": "local-government", "url": "https://www.rva.gov/richmond-city-council", "access": "public-web", "scrapeStatus": "works" }
+    ]
+  },
+  {
+    "id": "va-chesterfield-county",
+    "name": "Chesterfield County",
+    "type": "county",
+    "state": "VA",
+    "priority": 4,
+    "region": "Central Virginia / Richmond area",
+    "sources": [
+      { "id": "va-courts-cci", "label": "Virginia Circuit Court Case Information", "category": "court", "url": "https://eapps.courts.state.va.us/cci/", "access": "search-form", "scrapeStatus": "needs-review" },
+      { "id": "va-courts-gdc", "label": "Virginia General District Court Case Information", "category": "court", "url": "https://eapps.courts.state.va.us/gdcourts/", "access": "search-form", "scrapeStatus": "needs-review" },
+      { "id": "chesterfield-ca", "label": "Chesterfield Commonwealth's Attorney", "category": "prosecutor", "url": "https://www.chesterfield.gov/505/Commonwealths-Attorney", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "chesterfield-police", "label": "Chesterfield Police", "category": "police", "url": "https://www.chesterfield.gov/941/Police", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "chesterfield-sheriff", "label": "Chesterfield Sheriff", "category": "sheriff", "url": "https://www.chesterfield.gov/946/Sheriff", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "chesterfield-jail", "label": "Chesterfield Jail", "category": "jail", "url": "https://www.chesterfield.gov/944/Jail", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "chesterfield-foia", "label": "Chesterfield FOIA Requests", "category": "foia", "url": "https://www.chesterfield.gov/398/Freedom-of-Information-Act-Requests", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "chesterfield-board", "label": "Chesterfield Board of Supervisors", "category": "local-government", "url": "https://www.chesterfield.gov/224/Board-of-Supervisors", "access": "public-web", "scrapeStatus": "works" }
+    ]
+  },
+  {
+    "id": "va-goochland-county",
+    "name": "Goochland County",
+    "type": "county",
+    "state": "VA",
+    "priority": 5,
+    "region": "Central Virginia / Richmond area",
+    "sources": [
+      { "id": "va-courts-cci", "label": "Virginia Circuit Court Case Information", "category": "court", "url": "https://eapps.courts.state.va.us/cci/", "access": "search-form", "scrapeStatus": "needs-review" },
+      { "id": "goochland-ca", "label": "Goochland Commonwealth's Attorney", "category": "prosecutor", "url": "https://www.goochlandva.us/307/Commonwealths-Attorney", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "goochland-sheriff", "label": "Goochland Sheriff", "category": "sheriff", "url": "https://www.goochlandva.us/200/Sheriff", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "goochland-foia", "label": "Goochland FOIA", "category": "foia", "url": "https://www.goochlandva.us/328/Freedom-of-Information-Act", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "goochland-board", "label": "Goochland Board of Supervisors", "category": "local-government", "url": "https://www.goochlandva.us/231/Board-of-Supervisors", "access": "public-web", "scrapeStatus": "works" }
+    ]
+  },
+  {
+    "id": "va-new-kent-county",
+    "name": "New Kent County",
+    "type": "county",
+    "state": "VA",
+    "priority": 6,
+    "region": "Central Virginia / Richmond area",
+    "sources": [
+      { "id": "va-courts-cci", "label": "Virginia Circuit Court Case Information", "category": "court", "url": "https://eapps.courts.state.va.us/cci/", "access": "search-form", "scrapeStatus": "needs-review" },
+      { "id": "new-kent-ca", "label": "New Kent Commonwealth's Attorney", "category": "prosecutor", "url": "https://www.co.new-kent.va.us/228/Commonwealths-Attorney", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "new-kent-sheriff", "label": "New Kent Sheriff", "category": "sheriff", "url": "https://www.co.new-kent.va.us/334/Sheriff", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "new-kent-foia", "label": "New Kent FOIA", "category": "foia", "url": "https://www.co.new-kent.va.us/544/Freedom-of-Information-Act-FOIA", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "new-kent-board", "label": "New Kent Board of Supervisors", "category": "local-government", "url": "https://www.co.new-kent.va.us/198/Board-of-Supervisors", "access": "public-web", "scrapeStatus": "works" }
+    ]
+  },
+  {
+    "id": "va-caroline-county",
+    "name": "Caroline County",
+    "type": "county",
+    "state": "VA",
+    "priority": 7,
+    "region": "Central Virginia / Richmond area",
+    "sources": [
+      { "id": "va-courts-cci", "label": "Virginia Circuit Court Case Information", "category": "court", "url": "https://eapps.courts.state.va.us/cci/", "access": "search-form", "scrapeStatus": "needs-review" },
+      { "id": "caroline-ca", "label": "Caroline Commonwealth's Attorney", "category": "prosecutor", "url": "https://co.caroline.va.us/184/Commonwealths-Attorney", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "caroline-sheriff", "label": "Caroline Sheriff", "category": "sheriff", "url": "https://co.caroline.va.us/196/Sheriff", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "pamunkey-regional-jail", "label": "Pamunkey Regional Jail", "category": "jail", "url": "https://www.pamunkeyregionaljail.org/", "access": "public-web", "scrapeStatus": "needs-review" },
+      { "id": "caroline-board", "label": "Caroline Board of Supervisors", "category": "local-government", "url": "https://co.caroline.va.us/200/Board-of-Supervisors", "access": "public-web", "scrapeStatus": "works" }
+    ]
+  },
+  {
+    "id": "va-fairfax-county",
+    "name": "Fairfax County",
+    "type": "county",
+    "state": "VA",
+    "priority": 8,
+    "region": "Northern Virginia",
+    "sources": [
+      { "id": "va-courts-cci", "label": "Virginia Circuit Court Case Information", "category": "court", "url": "https://eapps.courts.state.va.us/cci/", "access": "search-form", "scrapeStatus": "needs-review" },
+      { "id": "va-courts-gdc", "label": "Virginia General District Court Case Information", "category": "court", "url": "https://eapps.courts.state.va.us/gdcourts/", "access": "search-form", "scrapeStatus": "needs-review" },
+      { "id": "fairfax-ca", "label": "Fairfax Commonwealth's Attorney", "category": "prosecutor", "url": "https://www.fairfaxcounty.gov/commonwealthattorney/", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "fairfax-police", "label": "Fairfax County Police", "category": "police", "url": "https://www.fairfaxcounty.gov/police/", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "fairfax-sheriff", "label": "Fairfax County Sheriff", "category": "sheriff", "url": "https://www.fairfaxcounty.gov/sheriff/", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "fairfax-adc", "label": "Fairfax Adult Detention Center", "category": "jail", "url": "https://www.fairfaxcounty.gov/sheriff/adult-detention-center", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "fairfax-foia", "label": "Fairfax FOIA", "category": "foia", "url": "https://www.fairfaxcounty.gov/topics/foia", "access": "public-web", "scrapeStatus": "works" },
+      { "id": "fairfax-board", "label": "Fairfax Board of Supervisors", "category": "local-government", "url": "https://www.fairfaxcounty.gov/boardofsupervisors/", "access": "public-web", "scrapeStatus": "works" }
+    ]
+  }
+]
