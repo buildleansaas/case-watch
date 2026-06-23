@@ -16,6 +16,7 @@ export default function HomePage() {
       </section>
 
       <section className="grid">
+        <a className="card link-card" href="/judges/sparkle-l-sooknanan"><span className="badge">new</span><h2>Judge profile engine</h2><p>Source-linked public-official profiles with biography, timeline, rulings, documents, criticism, metadata, and JSON-LD.</p></a>
         <div className="card"><span className="badge">v0</span><h2>Source matrix first</h2><p>Map every county/city court, jail, sheriff, prosecutor, police, registry, FOIA, and news source before scraping.</p></div>
         <div className="card"><span className="badge">v0</span><h2>Claim verifier</h2><p>Social/news claims stay labeled as claims until official court, registry, jail, or agency records verify them.</p></div>
         <div className="card"><span className="badge">v0</span><h2>Neutral scoring</h2><p>Build a by-the-book baseline, then flag unusually lenient or unusually harsh deviations from statute and sentencing ranges.</p></div>
