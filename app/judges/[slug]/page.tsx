@@ -229,7 +229,7 @@ export default async function JudgeProfilePage({ params }: JudgePageProps) {
 
       <section className="section-panel" id="documents">
         <div className="section-kicker">Document library</div>
-        <h2>Primary records and source pages used in this profile</h2>
+        <h2>Records and source pages used in this profile</h2>
         <div className="document-list">
           {profile.documents.map((document) => (
             <article className="document-row" key={document.id}>

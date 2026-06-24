@@ -384,6 +384,219 @@ const profiles: JudgeProfile[] = [
       { id: 'scotus-wire-seed', label: 'SCOTUS Wire X seed post', url: 'https://x.com/scotus_wire/status/2069142109769085013', type: 'social-seed', confidence: 'seed', note: 'Seed only; not used as a verified factual source.' },
     ],
   },
+  {
+    type: 'judge',
+    slug: 'kandice-pickett',
+    fullName: 'Kandice Pickett',
+    displayName: 'Kandice Pickett',
+    kicker: 'State judge profile',
+    headline: 'A Jefferson County criminal judge, former prosecutor, and viral bond-hearing target whose record needs court-document receipts beyond the post',
+    deck:
+      'A viral X post accused Judge Kandice Pickett over a murder-case bond decision. Case Watch keeps the outrage post in the seed lane, then builds the profile from the Jefferson County court page, legal biography, election profile, and reported hearing accounts.',
+    lastUpdated: '2026-06-24',
+    metaTitle: 'Judge Kandice Pickett: Biography, Court Role, Bond Hearing, and Source Ledger',
+    metaDescription:
+      'Source-linked profile of Jefferson County Circuit Judge Kandice Pickett, including court role, prosecutor background, reported Aniah’s Law bond hearing, social-seed claim, and open research leads.',
+    neutralSummary: {
+      text:
+        'Kandice Pickett is a Jefferson County, Alabama circuit criminal judge in the Tenth Judicial Circuit. Her official court page lists her Birmingham criminal-division chambers and staff, while Birmingham School of Law describes her as a Tuskegee native, University of Alabama and Alabama Law graduate, former deputy district attorney, and faculty spotlight subject.',
+      sourceIds: ['jeffco-pickett-official', 'bsol-pickett'],
+    },
+    nutGraf: {
+      text:
+        'The public-record issue is narrow and document-driven: a viral post says Pickett released Steven Tyler Whitehead on bond after murder and attempted-murder charges. Local reporting says she set a $330,000 total bond after an Aniah’s Law hearing and found the state did not meet the burden to hold him without bond. The next profile pass should collect the actual order, case-action summary, docket, hearing transcript or recording, and statutory Aniah’s Law standard before treating the hearing as anything more than a reported bond decision.',
+      sourceIds: ['quantumguard-pickett-seed', 'abc3340-whitehead-bond', 'alcom-whitehead-bond'],
+    },
+    currentRole: {
+      title: 'Circuit Judge, Criminal Division',
+      court: 'Tenth Judicial Circuit of Alabama, Jefferson County Birmingham Division',
+      jurisdiction: 'Jefferson County, Alabama',
+      activeFrom: '2023-01-16',
+      appointedBy: 'Elected to Place 16 in 2022',
+      confirmed: 'Assumed office January 16, 2023',
+      sourceIds: ['jeffco-pickett-official', 'ballotpedia-pickett'],
+    },
+    quickFacts: [
+      { label: 'Court', value: 'Jefferson County Circuit Court, criminal division', sourceIds: ['jeffco-pickett-official'] },
+      { label: 'Office', value: 'Criminal Justice Center, Room 406, Birmingham', sourceIds: ['jeffco-pickett-official'] },
+      { label: 'Education', value: 'University of Alabama B.S.; University of Alabama School of Law J.D.', sourceIds: ['bsol-pickett'] },
+      { label: 'Prior role', value: 'Deputy district attorney for nearly 15 years before taking the bench', sourceIds: ['bsol-pickett'] },
+      { label: 'Election office', value: 'Alabama 10th Judicial Circuit Place 16', sourceIds: ['ballotpedia-pickett'] },
+      { label: 'Viral case seed', value: 'Steven Tyler Whitehead bond hearing claim, June 2026 X post', sourceIds: ['quantumguard-pickett-seed'] },
+    ],
+    stats: [
+      { label: 'Prosecutor tenure', value: 'Almost 15 years', context: 'Reported by Birmingham School of Law faculty spotlight.', sourceIds: ['bsol-pickett'] },
+      { label: 'Reported bond total', value: '$330K', context: 'ABC 33/40 reported $150K murder bond plus $60K for each of three attempted-murder charges.', sourceIds: ['abc3340-whitehead-bond'] },
+      { label: 'Reported charges', value: '1 murder + 3 attempted murder', context: 'Local reporting says one attempted-murder charge was upgraded after Kimber Mills died.', sourceIds: ['alcom-whitehead-bond'] },
+      { label: 'Source posture', value: 'Seed + news', context: 'The actual court order/transcript is still an open research lead.', sourceIds: ['quantumguard-pickett-seed', 'abc3340-whitehead-bond'] },
+    ],
+    education: [
+      { institution: 'University of Alabama', degree: 'B.S.', year: 'not yet sourced', sourceIds: ['bsol-pickett'] },
+      { institution: 'University of Alabama School of Law', degree: 'J.D.', year: 'not yet sourced', sourceIds: ['bsol-pickett'] },
+    ],
+    careerTimeline: [
+      { start: 'Before 2023', title: 'Deputy district attorney', organization: 'Sixth Judicial Circuit and Tenth Judicial Circuit', description: 'Birmingham School of Law says Pickett alternated between Tuscaloosa County and Jefferson County and handled misdemeanor appeals, drug offenses, property crimes, and violent felonies.', sourceIds: ['bsol-pickett'] },
+      { start: 'Before 2023', title: 'Law-enforcement and legal training work', organization: 'Alabama criminal-law community', description: 'The faculty spotlight says she advised and trained law enforcement on search and seizure, trial preparation, case investigation, and criminal-law updates.', sourceIds: ['bsol-pickett'] },
+      { start: '2022', title: 'Elected to Alabama 10th Judicial Circuit Place 16', organization: 'Jefferson County judicial election', description: 'Ballotpedia identifies Pickett as the judge for Alabama 10th Judicial Circuit Place 16.', sourceIds: ['ballotpedia-pickett'] },
+      { start: '2023', title: 'Assumed office as circuit judge', organization: 'Tenth Judicial Circuit of Alabama', description: 'Ballotpedia reports she assumed office January 16, 2023.', sourceIds: ['ballotpedia-pickett'] },
+      { start: '2025', title: 'Listed among Jefferson County criminal-division judges', organization: 'Jefferson County Circuit Court', description: 'The official court page lists her criminal-division chambers and staff.', sourceIds: ['jeffco-pickett-official'] },
+      { start: '2025', title: 'Reported Aniah’s Law bond hearing in Whitehead case', organization: 'Jefferson County Circuit Court', description: 'ABC 33/40 and AL.com reported that Pickett set bond after a hearing in the Steven Tyler Whitehead case.', sourceIds: ['abc3340-whitehead-bond', 'alcom-whitehead-bond'] },
+      { start: '2026', title: 'Viral X post turns the bond ruling into a public accountability lead', organization: 'X / social seed lane', description: 'The Quantum Guard post is preserved as a seed claim and not treated as the underlying court record.', sourceIds: ['quantumguard-pickett-seed'] },
+    ],
+    profileSections: [
+      {
+        eyebrow: 'Record spine',
+        title: 'The strongest current biography source is professional, not political.',
+        body:
+          'The Birmingham School of Law profile gives the usable career spine: Tuskegee native, Alabama undergraduate and law degrees, nearly 15 years as a deputy district attorney, jury-trial and felony litigation experience, and law-enforcement training work.',
+        sourceIds: ['bsol-pickett'],
+      },
+      {
+        eyebrow: 'Court file gap',
+        title: 'The viral claim is not enough. The bond order and docket should be the next receipts.',
+        body:
+          'Local reports describe an Aniah’s Law hearing, probable-cause finding, bond amounts, firearm restriction, and electronic-monitoring condition. The profile should not infer motive, ideology, or misconduct without the actual order, transcript, and statutory standard.',
+        sourceIds: ['abc3340-whitehead-bond', 'alcom-whitehead-bond'],
+      },
+      {
+        eyebrow: 'Public scrutiny',
+        title: 'The page should explain the legal burden, not just repeat outrage framing.',
+        body:
+          'ABC 33/40 reported that the state sought no bond and Pickett ruled the state did not meet the burden for no bond. A useful profile should put that against Alabama’s Aniah’s Law framework and the facts found at the hearing once primary documents are collected.',
+        sourceIds: ['abc3340-whitehead-bond'],
+      },
+    ],
+    notableRulings: [
+      {
+        slug: 'steven-tyler-whitehead-aniahs-law-bond-hearing',
+        title: 'Reported Aniah’s Law bond hearing in Steven Tyler Whitehead case',
+        date: '2025-10-24',
+        court: 'Jefferson County Circuit Court, Alabama',
+        docket: 'Open research lead',
+        summary:
+          'Local reporting says Judge Kandice Pickett set Steven Tyler Whitehead’s total bond at $330,000 after the state sought no bond in a case involving murder and attempted-murder charges from the Pinson bonfire shooting.',
+        status: 'case-lead',
+        documentIds: ['abc3340-whitehead-bond-story', 'alcom-whitehead-bond-story'],
+        sourceIds: ['abc3340-whitehead-bond', 'alcom-whitehead-bond'],
+        explainer: {
+          title: 'What the reported bond hearing says',
+          caseCaption: 'State of Alabama v. Steven Tyler Whitehead, reported bond hearing',
+          docket: 'Needs Jefferson County case-action summary or Alacourt record',
+          date: 'October 24, 2025',
+          court: 'Jefferson County Circuit Court, Alabama',
+          posture: 'Reported Aniah’s Law hearing after Whitehead was charged in a fatal Pinson shooting case.',
+          challengedAction: 'The state reportedly sought no bond, while the defense opposed detention without bond.',
+          holding:
+            'ABC 33/40 reported that Pickett found probable cause for murder and three injuries but ruled the state did not meet the burden required to hold Whitehead without bond, setting $330,000 total bond instead.',
+          remedy:
+            'Reported conditions included bond amounts, prohibition on possessing firearms, and electronic monitoring if bond was posted.',
+          whyItMatters:
+            'This is the concrete event behind the viral post. It needs primary court documents before the profile can move from reported hearing summary to a verified docket explainer.',
+          legalHooks: ['Aniah’s Law', 'bond hearing', 'probable cause', 'electronic monitoring', 'murder and attempted-murder charges'],
+          documentIds: ['abc3340-whitehead-bond-story', 'alcom-whitehead-bond-story'],
+          sourceIds: ['abc3340-whitehead-bond', 'alcom-whitehead-bond'],
+        },
+      },
+    ],
+    publicRecord: [
+      {
+        title: 'Official court contact record',
+        summary: 'Jefferson County’s court site lists Pickett as a circuit criminal judge with Birmingham criminal-division chambers and staff.',
+        treatment: 'verified-biographical-record',
+        sourceIds: ['jeffco-pickett-official'],
+      },
+      {
+        title: 'Former prosecutor biography',
+        summary: 'Birmingham School of Law says Pickett spent almost 15 years as a deputy district attorney before taking the bench.',
+        treatment: 'reported-context',
+        sourceIds: ['bsol-pickett'],
+      },
+      {
+        title: 'Whitehead bond decision criticism',
+        summary: 'The Quantum Guard X post frames the bond decision as ideological betrayal. Case Watch stores this as social criticism and routes factual assertions back to news and court-record receipts.',
+        treatment: 'criticism',
+        sourceIds: ['quantumguard-pickett-seed', 'abc3340-whitehead-bond'],
+      },
+      {
+        title: 'Missing primary court file',
+        summary: 'The profile still needs the court order, case-action summary, transcript/audio, indictment status, and current custody/bond status before stronger conclusions can be made.',
+        treatment: 'open-research-lead',
+        sourceIds: ['abc3340-whitehead-bond', 'alcom-whitehead-bond'],
+      },
+    ],
+    researchLeads: [
+      {
+        title: 'Pull the Jefferson County/Alacourt docket',
+        why: 'The docket will anchor the case number, charge history, bond order, grand-jury posture, and later custody changes.',
+        status: 'needs-official-document',
+        nextSource: 'Alacourt / Jefferson County criminal case-action summary for Steven Tyler Whitehead',
+        sourceIds: ['abc3340-whitehead-bond'],
+      },
+      {
+        title: 'Find the Aniah’s Law order or transcript',
+        why: 'The key question is the stated legal reasoning and factual findings from the hearing, not the social framing.',
+        status: 'needs-official-document',
+        nextSource: 'Court order, minute entry, transcript, or hearing recording',
+        sourceIds: ['abc3340-whitehead-bond', 'alcom-whitehead-bond'],
+      },
+      {
+        title: 'Build a broader Pickett criminal-case outcome sample',
+        why: 'One viral bond decision is not enough to profile a judge’s pattern. A fair page needs a sample of bond, plea, sentencing, and violent-felony outcomes.',
+        status: 'needs-docket-inventory',
+        nextSource: 'Jefferson County criminal docket inventory and local reporting archive',
+        sourceIds: ['jeffco-pickett-official'],
+      },
+      {
+        title: 'Verify election and campaign records',
+        why: 'Ballotpedia gives the office/election spine, but campaign finance and bar profile records would make the public-office profile richer.',
+        status: 'queued',
+        nextSource: 'Alabama Secretary of State campaign finance and election results pages',
+        sourceIds: ['ballotpedia-pickett'],
+      },
+    ],
+    documents: [
+      {
+        id: 'jeffco-pickett-official-page',
+        title: 'Jefferson County official Judge Kandice Pickett page',
+        url: 'https://jefferson.alacourt.gov/circuit-court/circuit-judges-criminal/kandice-pickett/',
+        court: 'Tenth Judicial Circuit of Alabama',
+        type: 'other',
+        sourceIds: ['jeffco-pickett-official'],
+      },
+      {
+        id: 'abc3340-whitehead-bond-story',
+        title: 'ABC 33/40 report on Whitehead bond hearing',
+        url: 'https://abc3340.com/news/local/steven-whiteheads-bond-set-at-330k-for-murder-attempted-murder-in-pinson',
+        filed: '2025-10-24',
+        type: 'other',
+        sourceIds: ['abc3340-whitehead-bond'],
+      },
+      {
+        id: 'alcom-whitehead-bond-story',
+        title: 'AL.com report on Kimber Mills shooting and bond hearing',
+        url: 'https://www.al.com/crime/2025/10/bond-set-for-27-year-old-charged-with-killing-alabama-high-school-cheerleader-at-bonfire.html',
+        filed: '2025-10-24',
+        type: 'other',
+        sourceIds: ['alcom-whitehead-bond'],
+      },
+      {
+        id: 'quantumguard-pickett-x-seed',
+        title: 'Quantum Guard X seed post',
+        url: 'https://x.com/quantumguard17/status/2069526440358314434',
+        filed: '2026-06-23',
+        type: 'other',
+        sourceIds: ['quantumguard-pickett-seed'],
+      },
+    ],
+    sources: [
+      { id: 'jeffco-pickett-official', label: 'Jefferson County official judge page', url: 'https://jefferson.alacourt.gov/circuit-court/circuit-judges-criminal/kandice-pickett/', type: 'official-bio', confidence: 'official', note: 'Official court page with chambers and staff listing.' },
+      { id: 'bsol-pickett', label: 'Birmingham School of Law faculty spotlight', url: 'https://bsol.com/faculty-spotlight-judge-kandice-pickett/', type: 'institutional-profile', confidence: 'secondary', note: 'Biography source for education, prosecutor background, and community/legal training work.' },
+      { id: 'ballotpedia-pickett', label: 'Ballotpedia profile', url: 'https://ballotpedia.org/Kandice_Pickett', type: 'secondary-analysis', confidence: 'secondary', note: 'Used for office/election spine and assumed-office date.' },
+      { id: 'abc3340-whitehead-bond', label: 'ABC 33/40 Whitehead bond report', url: 'https://abc3340.com/news/local/steven-whiteheads-bond-set-at-330k-for-murder-attempted-murder-in-pinson', type: 'news-report', confidence: 'secondary', note: 'Local report describing the Aniah’s Law hearing, bond total, and reported burden finding.' },
+      { id: 'alcom-whitehead-bond', label: 'AL.com Kimber Mills / Whitehead bond report', url: 'https://www.al.com/crime/2025/10/bond-set-for-27-year-old-charged-with-killing-alabama-high-school-cheerleader-at-bonfire.html', type: 'news-report', confidence: 'secondary', note: 'Local report with victim, charge, hearing, witness, and bond context.' },
+      { id: 'quantumguard-pickett-seed', label: 'Quantum Guard X seed post', url: 'https://x.com/quantumguard17/status/2069526440358314434', type: 'social-seed', confidence: 'seed', note: 'Seed only. Preserved as public-claim context, not used as a verified court record.' },
+    ],
+  },
 ];
 
 export function getJudgeProfiles() {

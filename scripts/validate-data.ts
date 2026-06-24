@@ -1,4 +1,5 @@
 import { getCases } from '../lib/cases';
+import { getExecutiveOrders } from '../lib/executive-orders';
 import { getJudgeProfiles } from '../lib/profiles';
 
 function assert(condition: unknown, message: string): asserts condition {
@@ -40,7 +41,10 @@ for (const profile of profiles) {
   assert(profile.documents.length >= 2, `Judge profile ${profile.slug} needs a document library.`);
   assert(profile.sources.length >= 5, `Judge profile ${profile.slug} needs source cards.`);
   assert(profile.sources.some((source) => source.confidence === 'official'), `Judge profile ${profile.slug} needs official sources.`);
-  assert(profile.sources.some((source) => source.confidence === 'primary-document'), `Judge profile ${profile.slug} needs primary documents.`);
+  assert(
+    profile.sources.some((source) => source.confidence === 'primary-document') || profile.researchLeads.some((lead) => lead.status === 'needs-official-document'),
+    `Judge profile ${profile.slug} needs primary documents or an explicit primary-document research lead.`
+  );
   assert(profile.sources.some((source) => source.confidence === 'seed'), `Judge profile ${profile.slug} should preserve seed-only source handling.`);
 
   const sourceBackedGroups = [
@@ -82,4 +86,30 @@ for (const profile of profiles) {
   }
 }
 
-console.log(`Validated ${cases.length} case record(s) and ${profiles.length} judge profile(s).`);
+const orders = getExecutiveOrders();
+assert(orders.length > 0, 'Expected at least one executive order record.');
+
+for (const order of orders) {
+  const sourceIds = new Set(order.sources.map((source) => source.id));
+
+  assert(order.slug, 'Executive order missing slug.');
+  assert(order.orderNumber, `Executive order ${order.slug} missing order number.`);
+  assert(order.headline.length >= 80, `Executive order ${order.slug} needs a newspaper-grade headline.`);
+  assert(order.summary.sourceIds.length > 0, `Executive order ${order.slug} summary missing sourceIds.`);
+  assert(order.sections.length >= 3, `Executive order ${order.slug} needs at least three parsed sections.`);
+  assert(order.implementationTasks.length >= 2, `Executive order ${order.slug} needs implementation tasks.`);
+  assert(order.agencyMap.length >= 3, `Executive order ${order.slug} needs an agency map.`);
+  assert(order.claims.length >= 2, `Executive order ${order.slug} needs claim cards.`);
+  assert(order.sources.some((source) => source.confidence === 'official'), `Executive order ${order.slug} needs an official source.`);
+  assert(order.sources.some((source) => source.confidence === 'seed'), `Executive order ${order.slug} should preserve social seed handling.`);
+
+  const sourceBackedItems = [order.summary, order.whyItMatters, ...order.sections, ...order.implementationTasks, ...order.agencyMap, ...order.claims];
+  for (const item of sourceBackedItems) {
+    assert(item.sourceIds.length > 0, `Executive order ${order.slug} has an unsourced item.`);
+    for (const sourceId of item.sourceIds) {
+      assert(sourceIds.has(sourceId), `Executive order ${order.slug} references missing source ${sourceId}.`);
+    }
+  }
+}
+
+console.log(`Validated ${cases.length} case record(s), ${profiles.length} judge profile(s), and ${orders.length} executive order record(s).`);
