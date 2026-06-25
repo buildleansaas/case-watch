@@ -597,6 +597,204 @@ const profiles: JudgeProfile[] = [
       { id: 'quantumguard-pickett-seed', label: 'Quantum Guard X seed post', url: 'https://x.com/quantumguard17/status/2069526440358314434', type: 'social-seed', confidence: 'seed', note: 'Seed only. Preserved as public-claim context, not used as a verified court record.' },
     ],
   },
+
+  {
+    type: 'judge',
+    slug: 'raquel-west',
+    fullName: 'Jayne Raquel West',
+    displayName: 'Raquel West',
+    kicker: 'State criminal court judge profile',
+    headline: 'Jefferson County’s 252nd District Court judge enters Case Watch after a viral 25-year aggravated-robbery sentence',
+    deck:
+      'The profile starts from a Loud Outside X clip, anchors West’s court role in Jefferson County’s official 252nd District Court page, and separates the reported Caden Fontenette sentence from still-missing docket and minute-order receipts.',
+    lastUpdated: '2026-06-25',
+    metaTitle: 'Judge Raquel West: 252nd District Court, Sentencing Record, and Source Documents',
+    metaDescription:
+      'Source-linked profile of Jefferson County 252nd District Court Judge Raquel West, including official court role, reported Caden Fontenette sentencing, source documents, and open docket research leads.',
+    neutralSummary: {
+      text:
+        'Raquel West is the presiding judge of the 252nd District Court in Jefferson County, Texas. The county court page lists her as the Honorable Raquel West, Presiding, and notes she was elected in 2015. Secondary public records and local coverage connect her to the reported March 2026 sentencing of Caden James Fontenette after a guilty plea to aggravated robbery.',
+      sourceIds: ['jefferson-252nd-west-official', 'ballotpedia-west', 'portarthur-fontenette-sentence'],
+    },
+    nutGraf: {
+      text:
+        'Austin flagged West because the sentencing clip reads as unusually direct public accountability from the bench. Case Watch preserves that seed but does not treat the viral clip as the record. The useful profile is a source trail: official court identity, election/term context, the reported aggravated-robbery sentence, the video/social seed, and the specific court-file gaps needed before making stronger claims about sentencing practice.',
+      sourceIds: ['loudoutside-west-seed', 'jefferson-252nd-west-official', 'portarthur-fontenette-sentence'],
+    },
+    currentRole: {
+      title: 'Presiding Judge, 252nd District Court',
+      court: '252nd District Court, Jefferson County, Texas',
+      jurisdiction: 'Jefferson County, Texas',
+      activeFrom: '2015-01-01',
+      appointedBy: 'Elected judicial office',
+      confirmed: 'Elected 2014; county page lists elected 2015',
+      sourceIds: ['jefferson-252nd-west-official', 'ballotpedia-west', 'txdirectory-west'],
+    },
+    quickFacts: [
+      { label: 'Court', value: '252nd District Court, Jefferson County, Texas', sourceIds: ['jefferson-252nd-west-official'] },
+      { label: 'Role', value: 'Presiding judge', sourceIds: ['jefferson-252nd-west-official'] },
+      { label: 'Entered office', value: 'January 2015 / elected 2015 listed by county court page', sourceIds: ['jefferson-252nd-west-official', 'txdirectory-west'] },
+      { label: 'Election context', value: 'Ballotpedia lists election to the 252nd District Court in 2014', sourceIds: ['ballotpedia-west'] },
+      { label: 'Viral case seed', value: 'Caden James Fontenette aggravated-robbery sentencing clip, surfaced by Loud Outside', sourceIds: ['loudoutside-west-seed'] },
+      { label: 'Reported sentence', value: '25 years in prison after guilty plea to aggravated robbery', sourceIds: ['portarthur-fontenette-sentence', 'beaumontenterprise-fontenette-sentence'] },
+    ],
+    stats: [
+      { label: 'Court number', value: '252nd', context: 'Jefferson County district court listed on official county page', sourceIds: ['jefferson-252nd-west-official'] },
+      { label: 'Reported sentence', value: '25 years', context: 'Caden James Fontenette aggravated-robbery sentence reported by local outlets', sourceIds: ['portarthur-fontenette-sentence', 'beaumontenterprise-fontenette-sentence'] },
+      { label: 'Office tenure marker', value: '2015', context: 'County court page says West was elected in 2015; state directory lists entered office January 2015', sourceIds: ['jefferson-252nd-west-official', 'txdirectory-west'] },
+    ],
+    education: [
+      { institution: 'Education record', degree: 'Open source lead', year: 'TBD', honors: 'not yet verified from official biography or bar record', sourceIds: ['jefferson-252nd-west-official'] },
+    ],
+    careerTimeline: [
+      { start: '2014', title: 'Election to the 252nd District Court', organization: 'Jefferson County, Texas', description: 'Ballotpedia records West’s 2014 election to the Texas 252nd District Court.', sourceIds: ['ballotpedia-west'] },
+      { start: '2015', title: 'Entered elected judicial office', organization: '252nd District Court', description: 'The official county court page lists West as presiding judge and says elected 2015; Texas State Directory lists entered office January 2015.', sourceIds: ['jefferson-252nd-west-official', 'txdirectory-west'] },
+      { start: '2025', title: 'Courtroom conduct clip drew coverage', organization: '252nd District Court', description: 'New York Post and other outlets covered a courtroom clip in which West addressed a defendant’s inappropriate shirt, useful as public visibility context rather than a case-law source.', sourceIds: ['nypost-west-shirt'] },
+      { start: '2026-03-10', title: 'Reported sentencing date in Fontenette case', organization: '252nd District Court', description: '12NewsNow reporting, surfaced through search snippets, says Fontenette was sentenced March 10, 2026 after pleading guilty to aggravated robbery.', sourceIds: ['twelve-news-fontenette-sentence'] },
+      { start: '2026-03-17', title: 'Local sentencing coverage published', organization: 'Port Arthur News', description: 'Port Arthur News reported that Caden James Fontenette of Port Arthur was sentenced to 25 years in prison by Jefferson County District Judge Raquel West.', sourceIds: ['portarthur-fontenette-sentence'] },
+      { start: '2026-06-25', title: 'Case Watch seed captured', organization: 'Loud Outside X post', description: 'Austin flagged the Loud Outside video clip as a candidate judge profile for the Case Watch source-linked public-record product.', sourceIds: ['loudoutside-west-seed'] },
+    ],
+    profileSections: [
+      {
+        eyebrow: 'Official role',
+        title: 'West’s court identity is anchored in Jefferson County’s own 252nd District Court page.',
+        body:
+          'The county page identifies the 252nd District Court, lists the courthouse contact information, names Honorable Raquel West as presiding, and marks her elected status. That is the profile’s official spine.',
+        sourceIds: ['jefferson-252nd-west-official'],
+      },
+      {
+        eyebrow: 'Sentencing seed',
+        title: 'The viral case is a sentencing story, not yet a docket-complete Case Watch record.',
+        body:
+          'Local coverage reports a 25-year prison sentence for Caden James Fontenette after a guilty plea to aggravated robbery tied to a Nederland convenience-store robbery. The missing layer is the official indictment/case number, plea paperwork, judgment, and sentencing minute order.',
+        sourceIds: ['portarthur-fontenette-sentence', 'beaumontenterprise-fontenette-sentence'],
+      },
+      {
+        eyebrow: 'Public visibility',
+        title: 'The useful angle is the contrast between social-video plain talk and court-file receipts.',
+        body:
+          'The Loud Outside post is valuable as discovery and public-interest signal. The page keeps it as seed-only evidence while pushing readers toward official court sources and open docket tasks.',
+        sourceIds: ['loudoutside-west-seed', 'jefferson-252nd-west-official'],
+      },
+    ],
+    notableRulings: [
+      {
+        slug: 'fontenette-aggravated-robbery-sentencing',
+        title: 'Reported Caden James Fontenette aggravated-robbery sentencing',
+        date: '2026-03-10',
+        court: '252nd District Court, Jefferson County, Texas',
+        docket: 'Case number not yet verified',
+        summary:
+          'Local news reports say 18-year-old Caden James Fontenette received a 25-year prison sentence after pleading guilty to aggravated robbery tied to a 2025 Nederland convenience-store robbery. The viral courtroom clip frames West’s remarks to the defendant and family, but the official judgment and sentencing transcript/minute order are still open receipt gaps.',
+        status: 'case-lead',
+        documentIds: ['portarthur-fontenette-story', 'loudoutside-west-x-seed'],
+        sourceIds: ['portarthur-fontenette-sentence', 'beaumontenterprise-fontenette-sentence', 'loudoutside-west-seed'],
+        explainer: {
+          title: 'A reported 25-year aggravated-robbery sentence becomes the first West case lead',
+          caseCaption: 'State of Texas v. Caden James Fontenette',
+          docket: 'Not yet verified from Jefferson County court records',
+          date: '2026-03-10',
+          court: '252nd District Court, Jefferson County, Texas',
+          posture: 'Reported guilty plea followed by sentencing',
+          challengedAction: 'There is not a challenged ruling yet in the Case Watch record. The public-interest seed is the sentencing event and courtroom remarks shown in the viral clip.',
+          holding: 'Reported local coverage says West sentenced Fontenette to 25 years in prison after a guilty plea to aggravated robbery. Until the judgment, plea papers, and sentencing minute order are located, Case Watch treats the case as a verified news lead plus seed clip rather than a complete court-record profile.',
+          remedy: 'Next document work should locate the official criminal case number, judgment of conviction, sentence, plea paperwork, and any transcript or courtroom video archive from the 252nd District Court.',
+          whyItMatters: 'The clip is useful because it shows a judge publicly explaining consequences in plain language, but durable accountability work depends on matching that rhetoric to the official case record and comparing it with statutory range, plea posture, co-defendant outcomes, and prior record findings.',
+          legalHooks: ['Texas aggravated robbery', 'guilty plea', 'sentencing judgment', 'state district court docket'],
+          documentIds: ['portarthur-fontenette-story', 'loudoutside-west-x-seed'],
+          sourceIds: ['portarthur-fontenette-sentence', 'loudoutside-west-seed'],
+        },
+      },
+    ],
+    publicRecord: [
+      {
+        title: 'Official county court page confirms role',
+        summary: 'Jefferson County lists West as the presiding judge of the 252nd District Court and gives court contact/docket resources.',
+        treatment: 'verified-biographical-record',
+        sourceIds: ['jefferson-252nd-west-official'],
+      },
+      {
+        title: 'Fontenette sentence is reported, but docket receipts are still missing',
+        summary: 'Local outlets report the 25-year sentence after a guilty plea. The profile still needs the official case number, judgment, plea documents, and sentencing minute order/transcript.',
+        treatment: 'reported-context',
+        sourceIds: ['portarthur-fontenette-sentence', 'beaumontenterprise-fontenette-sentence'],
+      },
+      {
+        title: 'Viral courtroom clip is seed-only context',
+        summary: 'The Loud Outside X post and embedded video are preserved as the public discovery path, not as a substitute for court records.',
+        treatment: 'open-research-lead',
+        sourceIds: ['loudoutside-west-seed'],
+      },
+    ],
+    researchLeads: [
+      {
+        title: 'Find the official Fontenette criminal case number and docket',
+        why: 'The page should not rely on news articles for the case spine if Jefferson County court records can provide the indictment, plea, judgment, and sentence.',
+        status: 'needs-docket-inventory',
+        nextSource: 'Jefferson County district clerk / criminal case search / 252nd District Court docket archives',
+        sourceIds: ['jefferson-252nd-west-official', 'portarthur-fontenette-sentence'],
+      },
+      {
+        title: 'Pull sentencing judgment, plea papers, and minute order',
+        why: 'Those documents establish statutory offense level, plea constraints, sentence length, credit, enhancements, and whether reasons were recorded.',
+        status: 'needs-official-document',
+        nextSource: 'Jefferson County court file for State v. Caden James Fontenette',
+        sourceIds: ['portarthur-fontenette-sentence'],
+      },
+      {
+        title: 'Compare co-defendant outcomes in the Nederland robbery',
+        why: 'Secondary search results indicate other defendants may have been sentenced in the same robbery. Co-defendant comparison is necessary before characterizing the sentence as unusually harsh or ordinary.',
+        status: 'queued',
+        nextSource: 'Port Arthur News / Beaumont Enterprise follow-up stories and official dockets for co-defendants',
+        sourceIds: ['beaumontenterprise-bulldog-followup'],
+      },
+    ],
+    documents: [
+      {
+        id: 'jefferson-252nd-west-page',
+        title: 'Jefferson County 252nd District Court official page',
+        url: 'https://jeffersoncountytx.gov/distcrts/252nd.htm',
+        court: '252nd District Court, Jefferson County, Texas',
+        type: 'other',
+        sourceIds: ['jefferson-252nd-west-official'],
+      },
+      {
+        id: 'portarthur-fontenette-story',
+        title: 'Port Arthur News report on Fontenette 25-year sentence',
+        url: 'https://panews.com/2026/03/17/port-arthur-man-robbery-results-in-a-25-year-prison-sentence/',
+        filed: '2026-03-17',
+        type: 'other',
+        sourceIds: ['portarthur-fontenette-sentence'],
+      },
+      {
+        id: 'beaumontenterprise-fontenette-story',
+        title: 'Beaumont Enterprise report on Fontenette robbery sentence',
+        url: 'https://www.beaumontenterprise.com/news/article/port-arthur-teen-robbery-sentence-22083248.php',
+        filed: '2026-03-18',
+        type: 'other',
+        sourceIds: ['beaumontenterprise-fontenette-sentence'],
+      },
+      {
+        id: 'loudoutside-west-x-seed',
+        title: 'Loud Outside X seed post with courtroom clip',
+        url: 'https://x.com/loudoutside/status/2069947756320276959',
+        filed: '2026-06-25',
+        type: 'other',
+        sourceIds: ['loudoutside-west-seed'],
+      },
+    ],
+    sources: [
+      { id: 'jefferson-252nd-west-official', label: 'Jefferson County 252nd District Court page', url: 'https://jeffersoncountytx.gov/distcrts/252nd.htm', type: 'official-bio', confidence: 'official', note: 'Official county page listing Honorable Raquel West as presiding judge and elected 2015.' },
+      { id: 'ballotpedia-west', label: 'Ballotpedia Raquel West profile', url: 'https://ballotpedia.org/Raquel_West', type: 'secondary-analysis', confidence: 'secondary', note: 'Secondary election profile used for 2014 election context.' },
+      { id: 'txdirectory-west', label: 'Texas State Directory Raquel West listing', url: 'https://www.txdirectory.com/online/person/?id=50294', type: 'secondary-analysis', confidence: 'secondary', note: 'Directory listing for office entry and term markers.' },
+      { id: 'portarthur-fontenette-sentence', label: 'Port Arthur News Fontenette sentence report', url: 'https://panews.com/2026/03/17/port-arthur-man-robbery-results-in-a-25-year-prison-sentence/', type: 'news-report', confidence: 'secondary', note: 'Local report on the 25-year sentence.' },
+      { id: 'beaumontenterprise-fontenette-sentence', label: 'Beaumont Enterprise Fontenette sentence report', url: 'https://www.beaumontenterprise.com/news/article/port-arthur-teen-robbery-sentence-22083248.php', type: 'news-report', confidence: 'secondary', note: 'Local report on the Nederland robbery sentence.' },
+      { id: 'twelve-news-fontenette-sentence', label: '12NewsNow Fontenette sentence report', url: 'https://www.12newsnow.com/article/news/crime/port-arthur-teen-receives-25-year-sentence-for-nederland-robbery/502-91b93ea1-4a8d-4f1c-b172-63b187ea413d', type: 'news-report', confidence: 'secondary', note: 'Local TV report found through search snippets; direct page returned 403 in this environment.' },
+      { id: 'beaumontenterprise-bulldog-followup', label: 'Beaumont Enterprise Bulldog Express robbery follow-up', url: 'https://www.beaumontenterprise.com/news/article/port-arthur-bulldog-robbery-sentence-22289428.php', type: 'news-report', confidence: 'secondary', note: 'Follow-up/co-defendant lead from search results.' },
+      { id: 'nypost-west-shirt', label: 'New York Post courtroom conduct clip coverage', url: 'https://nypost.com/2025/06/18/us-news/texas-judge-scolds-man-for-wearing-worlds-best-farter-shirt-in-courtroom/', type: 'news-report', confidence: 'secondary', note: 'Public-visibility context only.' },
+      { id: 'loudoutside-west-seed', label: 'Loud Outside X seed post', url: 'https://x.com/loudoutside/status/2069947756320276959', type: 'social-seed', confidence: 'seed', note: 'Seed only. Used to preserve discovery path and public framing, not as an official court record.' },
+    ],
+  },
 ];
 
 export function getJudgeProfiles() {
