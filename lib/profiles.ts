@@ -618,7 +618,7 @@ const profiles: JudgeProfile[] = [
     },
     nutGraf: {
       text:
-        'Austin flagged West because the sentencing clip reads as unusually direct public accountability from the bench. Case Watch preserves that seed but does not treat the viral clip as the record. The useful profile is a source trail: official court identity, election/term context, the reported aggravated-robbery sentence, the video/social seed, and the specific court-file gaps needed before making stronger claims about sentencing practice.',
+        'The sentencing clip reads as unusually direct public accountability from the bench. Case Watch preserves that seed but does not treat the viral clip as the record. The useful profile is a source trail: official court identity, election/term context, the reported aggravated-robbery sentence, the video/social seed, and the specific court-file gaps needed before making stronger claims about sentencing practice.',
       sourceIds: ['loudoutside-west-seed', 'jefferson-252nd-west-official', 'portarthur-fontenette-sentence'],
     },
     currentRole: {
@@ -652,7 +652,7 @@ const profiles: JudgeProfile[] = [
       { start: '2025', title: 'Courtroom conduct clip drew coverage', organization: '252nd District Court', description: 'New York Post and other outlets covered a courtroom clip in which West addressed a defendant’s inappropriate shirt, useful as public visibility context rather than a case-law source.', sourceIds: ['nypost-west-shirt'] },
       { start: '2026-03-10', title: 'Reported sentencing date in Fontenette case', organization: '252nd District Court', description: '12NewsNow reporting, surfaced through search snippets, says Fontenette was sentenced March 10, 2026 after pleading guilty to aggravated robbery.', sourceIds: ['twelve-news-fontenette-sentence'] },
       { start: '2026-03-17', title: 'Local sentencing coverage published', organization: 'Port Arthur News', description: 'Port Arthur News reported that Caden James Fontenette of Port Arthur was sentenced to 25 years in prison by Jefferson County District Judge Raquel West.', sourceIds: ['portarthur-fontenette-sentence'] },
-      { start: '2026-06-25', title: 'Case Watch seed captured', organization: 'Loud Outside X post', description: 'Austin flagged the Loud Outside video clip as a candidate judge profile for the Case Watch source-linked public-record product.', sourceIds: ['loudoutside-west-seed'] },
+      { start: '2026-06-25', title: 'Case Watch seed captured', organization: 'Loud Outside X post', description: 'The Loud Outside video clip was captured as a candidate judge profile for the Case Watch source-linked public-record product.', sourceIds: ['loudoutside-west-seed'] },
     ],
     profileSections: [
       {
